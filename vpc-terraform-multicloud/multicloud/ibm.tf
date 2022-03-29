@@ -25,8 +25,8 @@ data "ibm_is_ssh_key" "ssh_key" {
   name = var.ssh_key_name
 }
 
-data "ibm_is_image" "ubuntu" {
-  name = var.ubuntu1804
+data "ibm_is_image" "Centos" {
+  name = var.Centos
 }
 
 resource "ibm_is_instance" "vsi1" {
