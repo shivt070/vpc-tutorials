@@ -19,11 +19,11 @@ variable "ibm_zones" {
   ]
 }
 
-variable "ubuntu1804" {
-  default = "ibm-ubuntu-18-04-1-minimal-amd64-2"
+variable "Centos" {
+  default = "ibm-centos-7-9-minimal-amd64-5"
 }
 
 variable "profile" {
-  default = "cx2-2x4"
+  default = "bx2-2x8"
 }
 
